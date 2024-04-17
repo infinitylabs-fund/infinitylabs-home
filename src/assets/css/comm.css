@@ -1,0 +1,503 @@
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+textarea,
+select {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'MontserratHairline';
+    src: url('/static/font/Montserrat-Hairline.otf');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/static/font/Montserrat-Light.otf');
+}
+@font-face {
+    font-family: 'Montserrat03';
+    src: url('/static/font/Montserrat Semi Bold.otf');
+}
+@font-face {
+    font-family: 'raleway01';
+    src: url('/static/font/raleway01.ttf');
+}
+@font-face {
+    font-family: 'raleway02';
+    src: url('/static/font/raleway02.ttf');
+}
+@font-face {
+    font-family: 'raleway03';
+    src: url('/static/font/raleway03.ttf');
+}
+@font-face {
+    font-family: 'raleway04';
+    src: url('/static/font/raleway04.ttf');
+}
+@font-face {
+    font-family: 'raleway05';
+    src: url('/static/font/raleway05.ttf');
+}
+body {
+    background: #FFFFFF;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Raleway";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000000;
+    font-size: 16px;
+}
+
+#app {
+    height: 100vh;
+}
+
+#app .el-scrollbar__wrap {
+    overflow-x: hidden;
+}
+
+a {
+    color: rgba(51, 51, 51, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+em {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+button[disabled] {
+    background: rgba(131, 131, 131, 0.5);
+    border: 1px solid rgba(131, 131, 131, 0.1);
+    cursor: no-drop;
+}
+
+
+/* element input */
+
+.el-input__inner {
+    background: transparent;
+}
+
+.el-input--prefix .el-input__inner {
+    padding-left: 40px;
+}
+
+/* home页面 */
+.hello {
+    width: 100%;
+    height: 700px;
+    background: url("/static/image/bg.svg") no-repeat;
+    position: relative;
+  }
+  .hello canvas {
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+  }
+  .text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .home-title {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 280px;
+  }
+  .home-title h2 {
+    font-family: "raleway02";
+    font-size: 50px;
+  }
+  .home-title p {
+    width: 483px;
+    font-family: "raleway02";
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.7;
+  }
+  .text h2 span {
+    color: #1271ff;
+  }
+  .contactUs {
+    width: 100%;
+    padding-top: 48px;
+    padding-bottom: 95px;
+    position: relative;
+  }
+  .contactUs::before {
+    content: url("/static/image/bigBlock.png");
+    position: absolute;
+    right: 40px;
+    bottom: 0px;
+  }
+  .formContent {
+    width: 1180px;
+    margin: 0 auto;
+  }
+  .formContent h3 {
+    font-family: "raleway03";
+    font-size: 24px;
+    line-height: 150%;
+  }
+  .formContent p {
+    width: 479px;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 150%;
+    color: #4b4b4c;
+  }
+  .formContent p span {
+    font-family: "Montserrat03";
+    color: #147ffe;
+    font-size: 20px;
+    line-height: 150%;
+    position: relative;
+    margin-right: 15px;
+  }
+  .formContent p span::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #147ffe;
+    left: 0;
+    bottom: 3px;
+  }
+  .searchBg {
+    position: relative;
+    width: 750px;
+    padding-top: 10px;
+  }
+  .searchBg::before {
+    content: url("/static/image/smallBlock.png");
+    position: absolute;
+    right: -74px;
+    top: 20px;
+  }
+
+  .searchBg .submit {
+    font-family: "Montserrat";
+    width: 100%;
+    background: #1271ff;
+    padding: 17.5px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 17px;
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* aboutUs页面 */
+  .aboutUsBanner {
+    width: 100%;
+    height: 800px;
+    background: rgba(216, 228, 249, 0.7);
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+  }
+  .abusBanner {
+    position: absolute;
+    right: -700px;
+    bottom: -620px;
+    z-index: -1;
+    filter: blur(15px);
+  }
+  .auBg {
+    position: absolute;
+    left: -60px;
+    top: 114px;
+    z-index: -1;
+  }
+  .abContent {
+    width: 1200px;
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 10;
+  }
+  .abContent::before {
+    content: url("/static/image/auBgblock.png");
+    position: absolute;
+    right: -20px;
+    top: 170px;
+  }
+  .abContent div:nth-of-type(1) {
+    width: 416px;
+    flex-shrink: 0;
+  }
+  .abContent div:nth-of-type(1) img {
+    display: block;
+    margin: 0 auto;
+  }
+  .abContent div:nth-of-type(2) {
+    flex-grow: 1;
+  }
+  .abContent div:nth-of-type(2) h2 {
+    font-family: "raleway03";
+    font-size: 50px;
+    line-height: 59px;
+    color: #000000;
+  }
+  .abContent div:nth-of-type(2) p {
+    margin: 40px 0 0 0;
+    padding: 0 120px 0 0;
+    font-family: "Montserrat";
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.7;
+  }
+  .content {
+    width: 1125px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 158px 0;
+  }
+  
+  .digitalFund {
+    width: 100%;
+  }
+  
+  .digitalFund-content::before {
+    content: url("/static/image/abusBlock.png");
+    position: absolute;
+    left: -100px;
+    bottom: -30px;
+  }
+  .content h3 {
+    width: 620px;
+    font-family: "raleway03";
+    font-size: 50px;
+    line-height: 150%;
+  }
+  .content h3 span {
+    color: #1271ff;
+  }
+  .content p {
+    margin: 0;
+    padding: 0;
+    width: 689px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: -0.03em;
+    font-feature-settings: "salt" on, "ss01" on, "liga" off;
+    color: #000000;
+    opacity: 0.7;
+  }
+  .content .image {
+    display: flex;
+    align-items: center;
+  }
+  .content p:nth-of-type(1) {
+    margin-top: 55px;
+  }
+  .content p:nth-of-type(2) {
+    margin-top: 20px;
+  }
+  .hyperHash {
+    width: 100%;
+    background: rgba(235, 243, 255, 0.6);
+  }
+  .hyperHash .content p {
+    letter-spacing: 0;
+  }
+  .hyperHash .content p:nth-of-type(2) {
+    margin-top: 25px;
+  }
+  .digital .content p {
+    letter-spacing: 0.03em;
+  }
+  .ourTeam {
+    width: 100%;
+    background: rgba(235, 243, 255, 0.6);
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  .teamContent {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .teamContent h3 {
+    font-family: "raleway03";
+    font-size: 50px;
+    line-height: 150%;
+    color: #000000;
+  }
+  .teamContent ul {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .teamContent ul li {
+    width: 310px;
+  }
+  .teamContent ul li img {
+    display: block;
+    height: 161px;
+  }
+  .teamContent ul li h5 {
+    margin-top: 23px;
+    padding-left: 14px;
+    font-family: "raleway03";
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    position: relative;
+  }
+  .teamContent ul li h5::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #1271ff;
+    top: 50%;
+    transform: translateY(-5px);
+    left: 0px;
+  }
+  .teamContent ul li p {
+    font-family: "Montserrat";
+    font-size: 18px;
+    line-height: 150%;
+    text-align: justify;
+    word-break: break-all;
+    /* letter-spacing: 0.03em; */
+    font-feature-settings: "salt" on, "ss01" on, "liga" off;
+    color: #000000;
+    opacity: 0.7;
+  }
+
+  /* portfolio页面 */
+  .portfolio {
+    width: 100%;
+    padding-top: 230px;
+    padding-bottom: 180px;
+  }
+  .portfolioContent {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .portfolioContent::after {
+    content: url("/static/image/pfblock_B.png");
+    position: absolute;
+    top: -370px;
+    right: -230px;
+  }
+  .portfolioContent::before {
+    content: url("/static/image/pfblock_S.png");
+    position: absolute;
+    left: -150px;
+    bottom: -60px;
+  }
+  .portfolioContent h3 {
+    font-family: "raleway03";
+    font-size: 50px;
+    line-height: 150%;
+  
+    color: #000000;
+  }
+  .portfolioContent ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 77px;
+  }
+  .portfolioContent ul li {
+    width: 248px;
+    box-sizing: border-box;
+    padding: 28px 36px;
+    cursor: pointer;
+    margin-bottom: 80px;
+  }
+  .portfolioContent ul li:hover {
+    background: #ffffff;
+    box-shadow: -4px -4px 56px rgba(0, 0, 0, 0.06),
+      37px 37px 64px rgba(0, 0, 0, 0.04);
+  }
+  .portfolioContent ul li img {
+    width: 100%;
+  }
+  .portfolioContent ul li h5 {
+    margin-top: 28px;
+    font-family: "raleway05";
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+  }
+  .portfolioContent ul li p {
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.7;
+    /* letter-spacing: -0.003em; */
+    /* text-align: justify;
+    word-break: break-all;
+    font-feature-settings: "salt" on, "ss01" on, "liga" off; */
+  }
