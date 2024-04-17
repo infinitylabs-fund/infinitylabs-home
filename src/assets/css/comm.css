@@ -393,11 +393,11 @@ button[disabled] {
     justify-content: space-between;
   }
   .teamContent ul li {
-    width: 310px;
+    width: 22%;
   }
   .teamContent ul li img {
     display: block;
-    height: 161px;
+    width: 100%;
   }
   .teamContent ul li h5 {
     margin-top: 23px;
@@ -500,4 +500,12 @@ button[disabled] {
     /* text-align: justify;
     word-break: break-all;
     font-feature-settings: "salt" on, "ss01" on, "liga" off; */
+  }
+
+
+  .portfolioContent ul li {
+    filter: grayscale(100%);
+  }
+  .portfolioContent ul li:hover {
+    filter: none;
   }

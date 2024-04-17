@@ -26,19 +26,10 @@
         <div>
           <h3><span>Digital</span> Fund</h3>
           <p>
-            Infinity Labs invests, incubates, advises, and supports blockchain
-            projects to evolve and scale. It specializes in providing projects
-            with venture capital, technology solutions, community management,
-            legal/compliance consulting, and a broad spectrum of other services
-            and resources.
+            Infinity Labs invests, incubates, advises, and supports blockchain projects to evolve and scale. It specializes in providing projects with venture capital, technology solutions, community management, legal/compliance consulting, and a broad spectrum of other services and resources.
           </p>
           <p>
-            Through the early incubation and investment support of high-quality
-            projects, Infinity Labs digital fund establishes a diversified
-            investment portfolio, including Crust, Phala, Republic, Sifchain,
-            Dora factory, SubDAO, and more. Realizes the investment layout of
-            key tracks in the field and captures the industry's huge value in
-            its early stages potential.
+            Through the early incubation and investment support of high-quality projects, Infinity Labs digital fund establishes a diversified investment portfolio, including Crust, Republic ,TON Foundation, Dora factory, SubDAO, Matters and more. Realizes the investment layout of key tracks in the field and captures the industry's huge value in its early stages potential.
           </p>
         </div>
         <div class="image">
@@ -127,6 +118,13 @@
               Technology. In 2019, as one of the promoters of Sichuan
               "Hydropower Consumption Park", he set the benchmark of the new
               generation of compliant mining farms in the industry.
+            </p>
+          </li>
+          <li>
+            <img src="/static/image/howard.png" alt="" />
+            <h5>Howard</h5>
+            <p>
+              Howard Is the co-founder of DAuth Network (300,000 user authentication protocol) and MPCVault , a graduate of the University of California Berkeley Haas School of Business and Deferred MBA of Wharton School.  Previously, worked in alternative finance for four years in Silicon Valley. Founded the Erupture Angel Network 2000 + network of angel investors. Has served as the Venture Partner of the Blockchain Founders Fund.
             </p>
           </li>
         </ul>
