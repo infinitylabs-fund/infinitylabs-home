@@ -19,9 +19,7 @@
       <div class="formContent">
         <h3>Contact Us</h3>
         If you have inquiries or investment opportunities for our consideration please fill out the form to 
-
-        <a ref="iscontactUs" href="javascript:;" @click="onOpenTo"> contact us.</a>
-       
+        <a ref="iscontactUs" href="javascript:;" @click="onOpenTo"> contact us</a>.
       </div>
     </div>
   </div>

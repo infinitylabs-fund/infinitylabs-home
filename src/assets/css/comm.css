@@ -512,8 +512,8 @@ button[disabled] {
   .formContent a{
     font-family: "Montserrat03";
     color: #147ffe;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 150%;
     position: relative;
-    margin-right: 15px;
+    font-weight: bold;
   }
