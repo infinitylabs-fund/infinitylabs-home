@@ -18,63 +18,10 @@
     <div id="contactUs" class="contactUs">
       <div class="formContent">
         <h3>Contact Us</h3>
-        <p>
-          If you have inquiries or investment opportunities for our
-          consideration please contact us: <span>infinitylabs.o@gmail.com</span>
-          Alternatively fill the form below and leave message.
-        </p>
-        <el-form
-          size="small"
-          :model="searchForm"
-          ref="searchForm"
-          class="searchBg"
-          :rules="formRules"
-          :hide-required-asterisk="true"
-        >
-          <el-form-item label="NAME" prop="name">
-            <el-input
-              v-model="searchForm.name"
-              maxlength="20"
-              placeholder="Enter your name"
-            ></el-input>
-          </el-form-item>
-          <el-form-item label="EMAIL ADDRESS" prop="address">
-            <el-input
-              v-model="searchForm.address"
-              maxlength="40"
-              placeholder="Enter your email"
-            ></el-input>
-          </el-form-item>
-          <el-form-item label="INQUIRIES CLASSIFY" prop="inquiries_classify">
-            <el-select
-              v-model="searchForm.inquiries_classify"
-              placeholder="Select your inquiries classfify"
-            >
-              <el-option label="Investment" value="Investment"></el-option>
-              <el-option
-                label="Incubation services"
-                value="Incubation services"
-              ></el-option>
-              <el-option
-                label="Business cooperation"
-                value="Business cooperation"
-              ></el-option>
-            </el-select>
-          </el-form-item>
-          <el-form-item label="DETAIL" prop="detail">
-            <el-input
-              class="textareas"
-              type="textarea"
-              v-model="searchForm.detail"
-              placeholder="Hi there, I’m reasching out because I think we can collaborate..."
-            ></el-input>
-          </el-form-item>
-          <el-form-item>
-            <div class="submit" type="primary" @click="getPoolList">
-              Send Message
-            </div>
-          </el-form-item>
-        </el-form>
+        If you have inquiries or investment opportunities for our consideration please fill out the form to 
+
+        <a ref="iscontactUs" href="javascript:;" @click="onOpenTo"> contact us.</a>
+       
       </div>
     </div>
   </div>
@@ -111,6 +58,10 @@ export default {
     };
   },
   methods: {
+    onOpenTo(){
+      window.open('https://docs.google.com/forms/d/e/1FAIpQLSf7LieXazV0TOhZHVrZmF52pWQiIZe3iSc5R1zFzGC3IgTPGQ/viewform?usp=sf_link',"_blank")
+
+    },
     getPoolList() {
       let temp = true;
       for (const key in this.searchForm) {
