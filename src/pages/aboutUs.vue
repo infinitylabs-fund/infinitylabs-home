@@ -92,20 +92,18 @@
             <img src="/static/image/teamPeople1.png" alt="" />
             <h5>Bova Chen</h5>
             <p>
-              Co-Founder. He has 15+ yrs experience of financial investment. He
-              started as TMT researcher and then managed several funds as
-              investment director. He founded Winsun Capital and did successful
-              investments in crypto industry.
+             Co-Founder. He has 15+ yrs experience of financial investment.
+             He started as TMT researcher and then managed several funds as investment director.
+             He founded Winsun Capital and did successful investments in crypto industry.
             </p>
           </li>
           <li>
             <img src="/static/image/teamPeople2.png" alt="" />
             <h5>Leo Wang</h5>
             <p>
-              He has 15+ yrs experience in IT industry. Leo worked in Microsoft
-              and Cisco as senior development lead. He got rich experience in
-              distributed storage, cloud computing and blockchain, and led a
-              blockchain-based project to store and exchange manufacturing data
+             He has 15+ yrs experience in IT industry.
+              Leo worked in Microsoft and Cisco as senior development lead. 
+              He got rich experience in distributed storage, cloud computing and blockchain, and led a blockchain-based project to store and exchange manufacturing data
               in different geo-locations.
             </p>
           </li>
@@ -113,10 +111,10 @@
             <img src="/static/image/teamPeople3.png" alt="" />
             <h5>Yi Zhou</h5>
             <p>
-              6 years of entrepreneurial experience in blockchain industry, a
+             6 years of entrepreneurial experience in blockchain industry, a
               veteran of bitcoin mining industry, founder of Infichain
-              Technology. In 2019, as one of the promoters of Sichuan
-              "Hydropower Consumption Park", he set the benchmark of the new
+              Technology.
+             In 2019, as one of the promoters of Sichuan "Hydropower Consumption Park", he set the benchmark of the new
               generation of compliant mining farms in the industry.
             </p>
           </li>
@@ -124,7 +122,11 @@
             <img src="/static/image/howard.png" alt="" />
             <h5>Howard</h5>
             <p>
-              Howard Is the co-founder of DAuth Network (300,000 user authentication protocol) and MPCVault , a graduate of the University of California Berkeley Haas School of Business and Deferred MBA of Wharton School.  Previously, worked in alternative finance for four years in Silicon Valley. Founded the Erupture Angel Network 2000 + network of angel investors. Has served as the Venture Partner of the Blockchain Founders Fund.
+             Howard Is the co-founder of DAuth Network (300,000 user authentication protocol) and MPCVault , 
+              a graduate of the University of California Berkeley Haas School of Business and Deferred MBA of Wharton School.  
+             Previously, worked in alternative finance for four years in Silicon Valley. 
+             Founded the Erupture Angel Network 2000 + network of angel investors. 
+             Has served as the Venture Partner of the Blockchain Founders Fund.
             </p>
           </li>
         </ul>

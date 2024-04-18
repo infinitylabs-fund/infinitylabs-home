@@ -24,11 +24,6 @@
           /></a>
         </div>
         <div>
-          <a href="javascript:;"
-            ><img src="/static/image/topInstagram.png" alt=""
-          /></a>
-        </div>
-        <div>
           <a href="https://infinitylabs.medium.com/" target="_blank"
             ><img src="/static/image/topN.png" alt=""
           /></a>

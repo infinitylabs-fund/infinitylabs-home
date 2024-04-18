@@ -15,11 +15,6 @@
               /></a>
             </li>
             <li>
-              <a href="javascript:;"
-                ><img src="/static/image/instagram.png" alt
-              /></a>
-            </li>
-            <li>
               <a href="https://infinitylabs.medium.com/" target="_blank"
                 ><img src="/static/image/M.png" alt
               /></a>
@@ -48,7 +43,7 @@
             >
           </li>
         </ul>
-        <div class="rights">© 2021. All rights reserved.</div>
+        <div class="rights">© {{ new Date().getFullYear()}}. All rights reserved.</div>
       </div>
     </el-row>
   </div>

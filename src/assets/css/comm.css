@@ -422,8 +422,6 @@ button[disabled] {
     font-family: "Montserrat";
     font-size: 18px;
     line-height: 150%;
-    text-align: justify;
-    word-break: break-all;
     /* letter-spacing: 0.03em; */
     font-feature-settings: "salt" on, "ss01" on, "liga" off;
     color: #000000;
@@ -461,9 +459,9 @@ button[disabled] {
     color: #000000;
   }
   .portfolioContent ul {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     justify-content: space-between;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     margin-top: 77px;
   }
   .portfolioContent ul li {
