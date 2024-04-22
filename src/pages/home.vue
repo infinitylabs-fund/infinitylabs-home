@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="hello">
-      <canvas id="render-canvas" touch-action="none"></canvas>
-      <div class="text">
+      <canvas id="render-canvas"  touch-action="none"></canvas>
+      <div class="text  mo:w-full flex mo:px-[30px] justify-center  mx-auto w-container md:w-full md:px-[30px]">
         <div class="home-title">
           <h2>
-            Accelerating <span>Cross-field</span><br />
+            Accelerating <span >Cross-field</span><br />
             Collaboration
           </h2>
           <p>
@@ -15,7 +15,7 @@
         </div>
       </div>
     </div>
-    <div id="contactUs" class="contactUs">
+    <div id="contactUs" class="contactUs   mo:w-full flex mo:px-[30px] justify-center  mx-auto w-container md:w-full md:px-[30px]">
       <div class="formContent">
         <h3>Contact Us</h3>
         If you have inquiries or investment opportunities for our consideration please fill out the form to 
@@ -28,6 +28,8 @@
 <script>
 import * as BABYLON from "babylonjs";
 import "babylonjs-loaders";
+import "@/assets/css/comm.css";
+import "../assets/css/tailwind.css";
 export default {
   name: "home",
   data() {
@@ -179,6 +181,10 @@ export default {
 </script>
 
 <style scoped>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 div {
   font-size: 16px;
 }

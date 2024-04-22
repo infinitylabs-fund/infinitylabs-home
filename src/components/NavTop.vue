@@ -1,23 +1,21 @@
 <template>
   <div class="NavTop">
-    <div class="NavCon">
-      <div class="logo">
+    <div class="flex justify-center md:px-[30px] mx-auto NavCon md:!w-full mt-5 ">
+      <div class="flex items-center justify-between w-full ">
+        <div class="logo">
         <router-link to="/home">
           <img src="/static/image/logo.png" />
         </router-link>
       </div>
-      <ul>
-        <li v-for="(item, index) in menuList" :key="index">
-          <div>
+      <div class="flex justify-between gap-[75px] ">
+        <div v-for="(item, index) in menuList" :key="index">
             <router-link
               :to="item.link"
               :class="{ navActive: active.indexOf(item.active) != -1 }"
               >{{ item.title }}</router-link
             >
-          </div>
-        </li>
-      </ul>
-      <div class="logInRegister">
+        </div>
+        <div class="flex items-center gap-10">
         <div>
           <a href="https://twitter.com/InfinityLabs_" target="_blank"
             ><img src="/static/image/topTwitter.png" alt=""
@@ -28,7 +26,11 @@
             ><img src="/static/image/topN.png" alt=""
           /></a>
         </div>
+      </div> 
       </div>
+     
+        </div>
+
     </div>
   </div>
 </template>
@@ -106,16 +108,12 @@ export default {
 }
 .NavCon {
   width: 1200px;
-  margin: 0 auto;
   height: 100%;
-  display: flex;
-  justify-content: flex-end;
 }
 .NavCon > ul {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  padding-right: 60px;
 }
 .NavCon > ul > li {
   margin-right: 30px;

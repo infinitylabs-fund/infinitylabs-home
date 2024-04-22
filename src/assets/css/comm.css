@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body,
 ol,
 ul,
@@ -274,12 +277,12 @@ button[disabled] {
     padding-top: 20px;
     z-index: 10;
   }
-  .abContent::before {
+  /* .abContent::before {
     content: url("/static/image/auBgblock.png");
     position: absolute;
     right: -20px;
     top: 170px;
-  }
+  } */
   .abContent div:nth-of-type(1) {
     width: 416px;
     flex-shrink: 0;
@@ -517,3 +520,5 @@ button[disabled] {
     position: relative;
     font-weight: bold;
   }
+
+

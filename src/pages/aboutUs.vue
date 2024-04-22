@@ -2,14 +2,24 @@
   <div>
     <div class="aboutUsBanner">
       <img class="abusBanner" src="/static/image/abusBanner.png" alt="" />
-      <div class="abContent">
+
+      <div class="abContent mo:w-full flex mo:px-[30px] justify-center md:px-[30px]  mx-auto md:!w-full ">
+
         <img class="auBg" src="/static/image/auBg.png" alt="" />
+
         <div>
           <img src="/static/image/auBlock.png" alt="" />
+
         </div>
-        <div>
-          <h2>Focusing on Blockchain</h2>
-          <p>
+
+
+
+        <div class="md:w-full">
+          <div class="float-right w-auto mt-[-100px]">
+            <img src="/static/image/auBgblock.png" class="float-right w-auto"/>
+          </div>
+          <h2 class="md:!text-[39px]">Focusing on Blockchain</h2>
+          <div style="font-family: Montserrat;" class="!w-full text-lg leading-[150%] opacity-70 mt-10">
             Infinity Labs is an investment institution focusing on the
             blockchain industry. Its investment portfolio consists of three
             categories: blockchain infrastructure construction, early-stage
@@ -17,11 +27,11 @@
             services, with the mission of integrating traditional capital and
             infrastructure resources into the field of blockchain and
             accelerating cross-field collaboration.
-          </p>
-        </div>
+          </div>
       </div>
     </div>
-    <div class="digitalFund">
+    </div>
+    <div class="digitalFund mo:w-full flex mo:px-[30px] justify-center md:px-[30px]  mx-auto md:!w-full ">
       <div class="digitalFund-content content">
         <div>
           <h3><span>Digital</span> Fund</h3>
@@ -37,7 +47,7 @@
         </div>
       </div>
     </div>
-    <div class="hyperHash">
+    <div class="hyperHash mo:w-full flex mo:px-[30px] justify-center md:px-[30px]  mx-auto md:!w-full ">
       <div class="content">
         <div class="image">
           <img src="/static/image/abusImg2.png" alt="" />
@@ -66,7 +76,7 @@
         </div>
       </div>
     </div>
-    <div class="digital">
+    <div class="digital mo:w-full flex mo:px-[30px] justify-center md:px-[30px]  mx-auto md:!w-full ">
       <div class="content">
         <div>
           <h3><span>DigDigital Infrastructure</span> Service Fundital</h3>
@@ -84,7 +94,7 @@
         </div>
       </div>
     </div>
-    <div class="ourTeam">
+    <div class="ourTeam mo:w-full flex mo:px-[30px] justify-center md:px-[30px]  mx-auto md:!w-full ">
       <div class="teamContent">
         <h3>Our Team</h3>
         <ul>

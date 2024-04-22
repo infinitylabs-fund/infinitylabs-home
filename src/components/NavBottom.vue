@@ -1,5 +1,6 @@
 <template>
-  <div class="bottom">
+  <div class="bottom ">
+    <div class="mo:w-full flex mo:px-[30px] justify-center  mx-auto w-container md:w-full md:px-[30px]">
     <el-row class="footer">
       <div class="btmLogo">
         <div>
@@ -8,26 +9,26 @@
         <div class="connect">
           <div>CONNECT</div>
           <div>Join the conversation</div>
-          <ul>
-            <li>
-              <a href="https://twitter.com/InfinityLabs_" target="_blank"
+          <div class="flex justify-between mt-[21px] mb-[33px]">
+
+            <a href="https://twitter.com/InfinityLabs_" target="_blank"
                 ><img src="/static/image/Twitter.png" alt
               /></a>
-            </li>
-            <li>
+
               <a href="https://infinitylabs.medium.com/" target="_blank"
                 ><img src="/static/image/M.png" alt
               /></a>
-            </li>
-            <li>
+
               <div class="Wechat">
                 <img src="/static/image/Wechat.png" alt />
                 <div class="WechatCode">
                   <img src="/static/image/wechatImg.jpg" alt="" />
                 </div>
               </div>
-            </li>
-          </ul>
+
+          </div>
+
+         
         </div>
       </div>
       <div class="btmList">
@@ -47,6 +48,7 @@
       </div>
     </el-row>
   </div>
+</div>
 </template>
 
 <script>
@@ -97,9 +99,7 @@ export default {
 .btmLogo:nth-child(1) {
   flex-grow: 1;
 }
-.connect {
-  width: 400px;
-}
+
 .connect > div:nth-of-type(1) {
   font-family: "raleway02";
   font-weight: 500;

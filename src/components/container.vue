@@ -1,5 +1,6 @@
 <template>
-  <div class="container">
+  <div class="containers">
+    
     <nav-Top />
     <router-view />
     <nav-Bottom />
@@ -10,12 +11,12 @@
 import navTop from "@/components/navTop";
 import navBottom from "@/components/navBottom";
 export default {
-  name: "container",
+  name: "containers",
   components: { navTop, navBottom },
 };
 </script>
 <style scoped>
-.container {
+.containers {
   position: relative;
 }
 </style>

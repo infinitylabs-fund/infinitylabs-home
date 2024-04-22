@@ -1,8 +1,8 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import Vue from 'vue'
-import App from './App'
-import router from './router'
+import Vue from "vue";
+import App from "./App";
+import router from "./router";
 
 //切换语言
 // import VueI18n from 'vue-i18n'
@@ -15,30 +15,31 @@ import router from './router'
 //   }
 // })
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 // api
-import Axios from 'axios'
-import api from './axios/api'
+import Axios from "axios";
+import api from "./axios/api";
 Vue.prototype.$api = api;
 Axios.defaults.withCredentials = true;
 
 // ElementUI
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
+import ElementUI from "element-ui";
+import "element-ui/lib/theme-chalk/index.css";
 Vue.use(ElementUI);
 
 // 表单验证
-import formValidation from './lib/validate'
-Vue.prototype.$formValidation = formValidation
+import formValidation from "./lib/validate";
+Vue.prototype.$formValidation = formValidation;
 
 // 全局css
-import '@/assets/css/comm.css';
+import "@/assets/css/comm.css";
+import "./assets/css/tailwind.css";
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
+  el: "#app",
   router,
   components: { App },
-  template: '<App/>'
-})
+  template: "<App/>"
+});

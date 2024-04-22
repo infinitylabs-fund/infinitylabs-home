@@ -1,8 +1,8 @@
 <template>
-  <div class="portfolio">
-    <div class="portfolioContent">
+  <div class="portfolio mo:w-full flex mo:px-[30px] justify-center md:px-[30px]  mx-auto md:!w-full ">
+    <div class="portfolioContent ">
       <h3>Our Investments</h3>
-      <ul>
+      <ul class="md:grid md:!grid-template-columns: repeat(3, minmax(0, 1fr));">
         <li
           v-for="(item) in Investments"
           :key="item.id"

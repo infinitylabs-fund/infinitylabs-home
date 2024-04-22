@@ -10,6 +10,25 @@
   <title>infinity labs</title>
   <link rel="shortcut icon" type="image/x-icon" href="./static/image/favicon.png">
   <script src="./static/config.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          screens: {
+            ssm: { min: "900px", max: "1169px" },
+            mo: { max: "900px" },
+            md: [{ min: "900px", max: "1280px" }],
+            sm: { min: "900px" }
+          },
+          width: {
+            container: "1280px"
+          }
+        }
+  },
+      
+    }
+  </script>
 </head>
 
 <body>

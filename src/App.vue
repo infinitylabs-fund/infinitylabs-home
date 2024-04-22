@@ -6,7 +6,11 @@
   </div>
 </template>
 
+
 <script>
+import './assets/css/comm.css'
+
+
 export default {
   name: "App",
   watch: {
