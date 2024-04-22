@@ -2,7 +2,7 @@
   <div>
     <div class="hello">
       <canvas id="render-canvas"  touch-action="none"></canvas>
-      <div class="text  mo:w-full flex mo:px-[30px] justify-center  mx-auto w-container md:w-full md:px-[30px]">
+      <div class="text  mo:w-full flex mo:px-[30px] justify-center  mx-auto  md:w-full md:px-[30px]">
         <div class="home-title">
           <h2>
             Accelerating <span >Cross-field</span><br />
